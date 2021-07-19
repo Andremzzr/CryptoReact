@@ -14,9 +14,9 @@ const Coin = ({image, name, symbol, price, volume, priceChange, marketcap}) => {
                 <td>${price.toLocaleString()}</td>
                 <td>{volume.toLocaleString()}</td>
                 {priceChange < 0 ? (
-                    <td className="red">{Math.round(priceChange * 100) / 100}</td>
+                    <td className="red">{Math.round(priceChange * 100) / 100} %</td>
                 ) : (
-                    <td className="green">{Math.round(priceChange * 100) / 100}</td>
+                    <td className="green">{Math.round(priceChange * 100) / 100} %</td>
                 )}
                 <td>{marketcap}</td>
 
