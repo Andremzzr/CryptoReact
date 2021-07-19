@@ -1,0 +1,18 @@
+*{
+    background-color: #121212;
+    color: honeydew;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+td img{
+    height: 30px;
+    width: 30px;
+}
+.red{
+    color: red;
+}
+
+.green{
+    color: greenyellow;
+}
